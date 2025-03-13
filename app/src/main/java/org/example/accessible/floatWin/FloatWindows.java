@@ -1,4 +1,4 @@
-package org.example.accessible;
+package org.example.accessible.floatWin;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -21,6 +21,9 @@ import android.view.animation.TranslateAnimation;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+
+import org.example.accessible.database.MyDataBases;
+import org.example.accessible.R;
 
 import java.io.DataOutputStream;
 import java.io.IOException;

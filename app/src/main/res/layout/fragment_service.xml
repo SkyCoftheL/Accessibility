@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.service.ServiceFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Servicetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lay_text_service"
+            android:textStyle="bold" />
+        <Switch
+            android:id="@+id/startSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/start_switch"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/RTInfor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lay_text_runtime"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/infortextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/lay_text_unrun" />
+
+        <TextView
+            android:id="@+id/activate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/lay_text_xp" />
+    </LinearLayout>
+
+</LinearLayout>

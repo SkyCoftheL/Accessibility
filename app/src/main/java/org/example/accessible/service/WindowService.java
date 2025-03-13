@@ -1,6 +1,5 @@
-package org.example.accessible;
+package org.example.accessible.service;
 
-import android.app.ActivityManager;
 import android.app.Notification;
 import android.app.Service;
 import android.content.BroadcastReceiver;
@@ -10,15 +9,12 @@ import android.content.IntentFilter;
 import android.os.Binder;
 import android.os.IBinder;
 import android.util.Log;
-import android.view.MotionEvent;
-import android.view.View;
-import android.view.WindowManager;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
-import org.w3c.dom.Text;
+import org.example.accessible.R;
+import org.example.accessible.floatWin.FloatWindows;
 
 
 public class WindowService extends Service {

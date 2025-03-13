@@ -1,4 +1,4 @@
-package org.example.accessible;
+package org.example.accessible.service;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -9,6 +9,9 @@ import android.content.Intent;
 import android.os.Build;
 
 import androidx.core.app.NotificationCompat;
+
+import org.example.accessible.MainActivity;
+import org.example.accessible.R;
 
 public class Foreground {
     private static final String CHANNEL_ID = "foreground_service_channel";

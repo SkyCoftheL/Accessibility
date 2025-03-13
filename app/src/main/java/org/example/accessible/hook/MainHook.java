@@ -1,12 +1,8 @@
-package org.example.accessible;
+package org.example.accessible.hook;
 
 import static de.robv.android.xposed.XposedHelpers.findAndHookMethod;
 
-import java.util.ArrayList;
-
 import de.robv.android.xposed.IXposedHookLoadPackage;
-import de.robv.android.xposed.XC_MethodHook;
-import de.robv.android.xposed.XposedHelpers;
 import de.robv.android.xposed.callbacks.XC_LoadPackage;
 
 public class MainHook implements IXposedHookLoadPackage {

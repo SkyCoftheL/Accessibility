@@ -1,4 +1,4 @@
-package org.example.accessible;
+package org.example.accessible.database;
 
 import android.content.Context;
 import android.database.Cursor;

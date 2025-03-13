@@ -23,6 +23,10 @@ import android.widget.Toast;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 
+import org.example.accessible.check.CheckRoot;
+import org.example.accessible.database.MyDataBases;
+import org.example.accessible.service.WindowService;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     private WindowService mService;
     private boolean mBound;
 
-    private  MyDataBases myDataBases;
+    private MyDataBases myDataBases;
     private final static String dataBaseName="MyDatabase.db";
     private final static int dataBaseVersion=1;
     private EditText singleEdit,doubleEdit,longPressEdit;
@@ -66,19 +70,19 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        start=findViewById(R.id.startButton);
-        stop=findViewById(R.id.stopButton);
-        save=findViewById(R.id.saveButton);
-        inforview=findViewById(R.id.infortextview);
-
-
-
-        singleEdit=findViewById(R.id.SingleTapEdit);
-        doubleEdit=findViewById(R.id.DoubleTapEdit);
-        longPressEdit=findViewById(R.id.LongPressEdit);
-
-        upper=findViewById(R.id.upper);
-        unimportant=findViewById(R.id.unimportant);
+//        start=findViewById(R.id.startButton);
+//        stop=findViewById(R.id.stopButton);
+//        save=findViewById(R.id.saveButton);
+//        inforview=findViewById(R.id.infortextview);
+//
+//
+//
+//        singleEdit=findViewById(R.id.SingleTapEdit);
+//        doubleEdit=findViewById(R.id.DoubleTapEdit);
+//        longPressEdit=findViewById(R.id.LongPressEdit);
+//
+//        upper=findViewById(R.id.upper);
+//        unimportant=findViewById(R.id.unimportant);
 
 
 

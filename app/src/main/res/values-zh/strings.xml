@@ -395,11 +395,15 @@
     <string name="lay_switch_remove">移除上层显示通知</string>
     <string name="lay_switch_collapse">禁止折叠为历史通知</string>
     <string name="lay_text_flowing">关注</string>
-    <string name="lay_text_github_url">https://github.com/SkyCoftheL/Accessiable</string>
+    <string name="lay_text_github_url">https://github.com/SkyCoftheL/Accessibility</string>
     <string name="lay_text_document">文档</string>
     <string name="delete_on_post_notification">这个特性将在未来实现</string>
     <string name="remove_unimportant_notification">这个特性将在未来实现</string>
     <string name="apply_for_permission">申请权限</string>
     <string name="confirm">确定</string>
     <string name="cancel">取消</string>
+    <string name="title_document">文档</string>
+    <string name="title_settings">设置</string>
+    <string name="title_service">服务</string>
+    <string name="start_switch">服务</string>
 </resources>
